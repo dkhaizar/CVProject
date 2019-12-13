@@ -2,7 +2,7 @@
     outline: none;
 }
 html,body{
-    background: #ffe400;
+    background:	#B0C4DE;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
@@ -13,10 +13,10 @@ html,body{
 #intro #text{
     font-size: 70px;
     font-weight: 800;
-    width: 10.5em;
+    width: 13em;
     height: 1.5em;
     position: absolute;
-    left: 50%;
+    left: 58%;
     top: 50%;
     transform: translate(-50%,-50%);
 }
@@ -91,25 +91,25 @@ html,body{
 
 h3.title{
     position: absolute;
-    top: -80px;
+    top: -20px;
     left: 520px;
-    font-size: 80px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 
 h3.title_exp{
     position: absolute;
-    top: -80px;
-    left: 440px;
-    font-size: 80px;
+    top: -20px;
+    left: 480px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 
 h3.title_skill{
     position: absolute;
-    top: -80px;
+    top: -20px;
     left: 540px;
-    font-size: 80px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 #what_we_do #profile1{
@@ -132,7 +132,7 @@ h3.title_skill{
     height: 430px;
     position: absolute;
     top: 120px;
-    left: 120px;
+    left: 80px;
     border: 2px solid black;
     border-radius: 3px;
 }
@@ -142,7 +142,7 @@ h3.title_skill{
     height: 430px;
     position: absolute;
     top: 120px;
-    left: 700px;
+    left: 650px;
     border: 2px solid black;
     border-radius: 3px;
 }
@@ -160,7 +160,7 @@ h3.title_skill{
     height: 430px;
     position: absolute;
     top: 120px;
-    left: 120px;
+    left: 80px;
     border: 2px solid black;
     border-radius: 3px;
 }
@@ -170,7 +170,7 @@ h3.title_skill{
     height: 430px;
     position: absolute;
     top: 120px;
-    left: 700px;
+    left: 650px;
     border: 2px solid black;
     border-radius: 3px;
 }
