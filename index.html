@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Testing Project</title>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/velocity.min.js"></script>
+    <script type="text/javascript" src="js/velocity.ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div id="intro">
+        <div id="text">
+            <span>CV DENNIS KHAIZAR</span>
+        </div>
+        <div id="button">
+            <button id="start" onclick="animasiIntroOut();">START</button>
+        </div>
+    </div>
+
+    <section id="main">
+        <nav id="menu">
+            <ul>
+                <li class="active">
+                    <a href="what_we_do">Profile</a>
+                </li>
+                <li>
+                    <a href="experience">Experience</a>
+                </li>
+                <li>
+                    <a href="skills">Skills</a>
+                </li>
+                <li>
+                    <a href="back_to_intro">Back To Intro</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="what_we_do" class="container-content">
+            <img src="images/laptop.jpg">
+
+            <h3 class="title">Profile</h3>
+            <div id="profile1">
+                <h1>Basic Info :</h1>
+                <ul>
+                    <li style="padding-bottom: 15px;">Full Name:<br> Dennis Khaizar</li>
+                    <li style="padding-bottom: 15px;">Place of Birth:<br> Metro</li>
+                    <li style="padding-bottom: 15px;">Date of Birth:<br> 4 September 1992</li>
+                    <li style="padding-bottom: 15px;">Marital Status:<br> Single</li>
+                    <li style="padding-bottom: 15px;">Domicile address:<br> Jl. Kemanggisan Pulo No.4A <br>Palmerah Jakarta
+                        Barat</li>
+                </ul>
+            </div>
+            <div id="profile2">
+                <h1>Contact :</h1>
+                <ul>
+                    <li style="padding-bottom: 15px;">Phone Number:<br> 082242730756</li>
+                    <li style="padding-bottom: 15px;">Email:<br> dkhaizar92@gmail.com</li>
+                </ul>
+                <h1>Portfolio :</h1>
+                <ul>
+                        <li style="padding-bottom: 15px;">LinkedIn:<br><a style="text-decoration: none;" href="https://www.linkedin.com/in/dennis-khaizar/">Click Here For LinkedIn Profile</a></li>
+                        <li style="padding-bottom: 15px;">Github:<br><a style="text-decoration: none;" href="https://github.com/dkhaizar">Click Here For Github Project</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="experience" class="container-content">
+            <h3 class="title_exp">Experience</h3>
+            <div id="exp1">
+                <h1 style="padding-left: 10px;">Last Education :</h1>
+                <ul>
+                    <li>Universitas Atma Jaya Yogyakarta Bacherlor degree, Information Technology</li>
+                </ul>
+                <h1 style="padding-left: 10px;">Organization :</h1>
+                <ul>
+                    <li>Leader Yoyo Gank Jogja (YO-G-JO)</li>
+                    <li>Himpunan Mahasiswa Teknik Informatika</li>
+                    <li>Kelompok Studi Linux</li>
+                </ul>
+                <h1 style="padding-left: 10px;">Training/Courses :</h1>
+                <ul>
+                    <li>Front End Web Development Basics by Hacktiv8</li>
+                    <li>SAP University Partnership Program course SAP01 - SAP Overview</li>
+                    <li>TOEFL Preparation Course di Swift English School</li>
+                </ul>
+            </div>
+            <div id="exp2">
+                <h1 style="padding-left: 10px;">Work Experience :</h1>
+                <ul>
+                    <li>Internship at PT. Krakatau Steel (Persero) Tbk. Divisi Utilities & Energy
+                            Management Start From 05 Januari until 05 Febuari 2015</li>
+                    <li>Administrator Database at Dinas Sosial Kota Metro Lampung Start
+                            From 6 Januari 2018 untill 18 Juli 2018</li>
+                    <li>IT Consultant at PT. Praisindo Teknologi Start From 7 September
+                            2018 Untill Now</li>
+                </ul>
+                <h1 style="padding-left: 10px;">Project Experience :</h1>
+                <ul>
+                    <li>Retail Bond System (RBS) at Bank Commonwealth</li>
+                    <li>Surat Berhutang Negara (SBN) at Bank Commonwealth</li>
+                    <li>Wealth Management System Module Mutual Fund at Bank Mandiri Syariah</li>
+                </ul>
+            </div>
+        </div>
+        <div id="skills" class="container-content">
+            <h3 class="title_skill">Skills</h3>
+            <div id="skill1">
+                <h1 style="padding-left: 10px;">Front End :</h1>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Jquery</li>
+                </ul>
+                <h1 style="padding-left: 10px;">Programming Development :</h1>
+                <ul>
+                    <li>Javascript</li>
+                    <li>C#</li>
+                    <li>SQL Server</li>
+                    <li>SQL Server Reporting Service</li>
+                    <li>PHP</li>
+                </ul>
+                </div>
+                <div id="skill2">
+                    <h1 style="padding-left: 10px;">Technical Writing :</h1>
+                    <ul>
+                        <li>Business Document</li>
+                        <li>Functional Document</li>
+                    </ul>
+                    <h1 style="padding-left: 10px;">Testing Application</h1>
+                    <ul>
+                        <li>Postman REST API</li>
+                        <li>SOAP UI</li>
+                    </ul>
+                    <h1 style="padding-left: 10px;">Individual Skills :</h1>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Teamwork</li>
+                        <li>Intuition</li>
+                        <li>Komunikatif</li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

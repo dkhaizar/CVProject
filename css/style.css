@@ -1,0 +1,176 @@
+*{
+    outline: none;
+}
+html,body{
+    background: #ffe400;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#intro #text{
+    font-size: 70px;
+    font-weight: 800;
+    width: 10.5em;
+    height: 1.5em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#intro #button{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+
+}
+
+#intro #button #start{
+    font-size: 15px;
+    background: none;
+    border: 2px black solid;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 125px;
+    height: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+#menu{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    margin: 5px 0px;
+    text-align: right;
+    display: none;
+}
+
+#menu ul li a{
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul li a:hover{
+    border-left: 3px solid black;
+    padding-left: 5px;
+}
+
+#menu ul li.active a{
+    border-bottom: 3px solid black;
+}
+
+#menu ul li.active a:hover{
+    border-left: none;
+}
+
+.container-content{
+    display: none;
+}
+
+#what_we_do img{
+    margin: 155px 0px 0px 60px;
+    border: 10px solid #f1f1f1;
+    border-radius: 3px;
+    width: 400px;
+}
+
+h3.title{
+    position: absolute;
+    top: -80px;
+    left: 520px;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+h3.title_exp{
+    position: absolute;
+    top: -80px;
+    left: 440px;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+h3.title_skill{
+    position: absolute;
+    top: -80px;
+    left: 540px;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+#what_we_do #profile1{
+    width: 650px;
+    position: absolute;
+    top: 130px;
+    left: 510px;
+}
+
+#what_we_do #profile2{
+    width: 650px;
+    position: absolute;
+    top: 130px;
+    left: 780px;
+}
+
+#experience #exp1{
+    margin-top: 20px;
+    width: 500px;
+    height: 430px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+#experience #exp2{
+    margin-top: 20px;
+    width: 500px;
+    height: 430px;
+    position: absolute;
+    top: 120px;
+    left: 700px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#skills div{
+    width: 650px;
+    position: absolute;
+    top: 160px;
+    left: 530px;
+}
+
+#skills #skill1{
+    margin-top: 20px;
+    width: 500px;
+    height: 430px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+#skills #skill2{
+    margin-top: 20px;
+    width: 500px;
+    height: 430px;
+    position: absolute;
+    top: 120px;
+    left: 700px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
